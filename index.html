@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Legekrogen</title>
+</head>
+<body>
+    <div class="topDelivery">
+        <p>Fri fra ved mere end 499,-</p>
+    </div>
+
+    <nav id="headerNav" class="indexNav"> <!-- Navbar -->
+        <img class="navLogo" src="./assets/logo/legekrogen_logo.png" alt="">
+        <button id="burger"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <ul class="nav-ul">
+            <li><a class="nav-link">Legetøj</a></li>
+            <li><a class="nav-link">Udtalelser</a></li>
+            <li><a class="nav-link">Kundeklub</a></li>
+        </ul>
+    </nav>
+
+        <div class="slider-wrapper" id="slider01">
+            <div class="slides">
+            </div>
+            <div class="frontTextBox">
+                <h1>At lege er at leve</h1>
+                <p>Her hos os har vi et stort udvalg af legetøj i høj kvalitet</p>
+                <button>LÆS MERE ></button>
+            </div>    
+        </div>
+
+
+    <section class="sectionCards">
+        <div class="cardsTextBox">
+            <h2>Et udpluk af vores</h2>
+            <h1>LEGETØJ</h1>
+
+        </div>
+        <div class="productContainer">
+            <div class="item"><img src="./assets/products/product1.jpg" alt="">
+                <div class="itemText">
+                    <p class="cardFirstLine">Tiny Republic Play</p>
+                    <p class="cardSecondLine">Tandlægesæt i træ</p>
+                    <p class="CardPrice">849 kr</p>
+                </div>
+            </div>
+            <div class="item"><img src="./assets/products/product2.jpg" alt="">
+                <div class="itemText">
+                    <p class="cardFirstLine">Kids Concept</p>
+                    <p class="cardSecondLine">Edvin gåvogn</p>
+                    <p class="CardPrice">499 kr</p>
+                </div>
+            </div>
+            <div class="item"><img src="./assets/products/product3.jpg" alt="">
+                <div class="itemText">
+                    <p class="cardFirstLine">Vilac</p>
+                    <p class="cardSecondLine">Fire på stribe spil</p>
+                    <p class="CardPrice">69,30 kr</p>
+                </div>
+            </div>
+            <div class="item"><img src="./assets/products/product4.jpg" alt="">
+                <div class="itemText">
+                    <p class="cardFirstLine">Tiny Republic Play</p>
+                    <p class="cardSecondLine">Isbod i træ</p>
+                    <p class="CardPrice">259 kr</p>
+                </div>
+            </div>
+        </div>
+        <button class="cardsButton">GÅ TIL LEGETØJ ></button>
+    </section>
+
+    <section class="sectionUdtaler">
+        <div class="udtalerTextBox">
+            <h2>Vores kunder</h2>
+            <h1>Udtaler</h1>
+
+        </div>
+        <div class="udtaler-container">
+            <div class="item2">
+                <div class="itemText2">
+                    <p class="cardFirstLine2">
+                        “Pakken kom dagen efter jeg bestilte.
+                         Der blev jeg positivt overrasket, da der 
+                         står på deres hjemmeside at
+                        leveringstiden er 2-4 hverdage. Og min 
+                        lille Hugo elsker sin nye træhest.”</p>
+                        <br>
+                    <p class="cardSecondLine2">- Heidi, mor til Hugo på 3 år</p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="itemText2">
+                    <p class="cardFirstLine2">
+                        “Efter min gode ven Lars tippede mig 
+                        om Legekrogen.dk, har jeg ikke 
+                        længere problemer med at købe de 
+                        perfekte julegaver. Tak til Legekrogen. 
+                        Og Lars”</p>
+                    <p class="cardSecondLine2">- Karsten Hansen, Morfar</p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="itemText2">
+                    <p class="cardFirstLine2">
+                        “Jeg fik varen tilsendt i den forkerte 
+                        farve, men da jeg kontaktede 
+                        Legekrogens kundeservice, var de 
+                        meget hurtige til at sende mig den 
+                        rigtige farve. Jeg fik endda en gratis 
+                        slikpose med. Det var meget lækkert”</p>
+                    <p class="cardSecondLine2">- Omar, onkel til Anton på 11 år</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionFormular">
+        <div class="formularImageBox">
+            <img src="./assets/heros/produkter-new.png" alt="">
+            
+           
+
+            <form action="#">
+                <input type="text" name="" id="text" placeholder="Fulde navn" required minlength="2">
+                <input type="email" name="" id="email" placeholder="Email" required>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Hvem køber du lejetøj til" required></textarea>
+                <button>BLIV MEDLEM NU!</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Kundeservice</h1>
+            <p>Kontakt@legehjørnet.dk</p>
+            <p>+45 23 45 67 89</p>
+        </div>
+        <div>
+            <h1>Følg os</h1>
+            <div class="icons">
+                <?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px">    <path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"/></svg>
+                <?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px">    <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"/></svg>
+            </div>
+        </div>
+        <div class="footerIMG">
+            <img src="./assets/logo/legekrogen_logo.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>

@@ -376,6 +376,7 @@ form button{
     height: 40px;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 footer{
@@ -394,6 +395,16 @@ footer{
 
 footer img{
     height: 60%;
+}
+
+.hidden{
+    display: none;
+}
+
+.msg{
+    font-size: 32px;
+    position: absolute;
+    color: white;
 }
 
 

@@ -63,3 +63,19 @@ setInterval(next, 3000)
 setActiveSlide(currentImageIndex);
 
 
+let form = document.querySelector('form');
+let message = document.querySelector('.msg')
+
+const msgTmpl = (msg) =>
+`
+<p>${msg}</p>
+
+`;
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+        form.classList.add('hidden')
+        message.innerHTML = msgTmpl(`YAY din bruger er nu oprettet. Velkommen`);
+
+})
